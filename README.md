@@ -16,8 +16,6 @@ Wordlist ini berisi endpoint umum yang sering ditemukan pada:
 
 ---
 
----
-
 ## 🚀 Cara Penggunaan
 
 ### Dengan `ffuf`
@@ -34,6 +32,19 @@ dirsearch -u https://target.com -w indonesia-endpoints.txt
 ```bash
 gobuster dir -u https://target.com -w indonesia-endpoints.txt
 ```
+---
+## ​🔗 Cara Menggabungkan File Kembali (Join/Merge)
+
+### ​🐧 Menggabungkan di Linux (termasuk Kali Linux) & macOS
+```bash
+cat namafile_part*.txt > namafile_baru.txt
+```
+## ​🪟 Menggabungkan di Windows (Command Prompt)
+```bash
+type namafile_part*.txt > namafile_baru.txt
+
+```
+---
 
 ⚠️ Disclaimer
 Wordlist ini hanya untuk:
